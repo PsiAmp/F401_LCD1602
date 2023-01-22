@@ -111,6 +111,7 @@ int main(void)
 	  HAL_Delay(500);
 
 	  LCD_Clear(&hi2c1, LCD_BLUE_ADDRESS);
+	  HAL_Delay(500);
 	  LCD_Clear(&hi2c1, LCD_GREEN_ADDRESS);
 	  HAL_Delay(500);
   }
